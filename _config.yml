@@ -1,0 +1,8 @@
+remote_theme: aterenin/minima-reboot
+
+title: "Talker-Reasoner"
+
+footer_icons:
+- username: For Code
+  url: https://github.com/FanGShiYuu/CoDrivingLLM/tree/master
+  
