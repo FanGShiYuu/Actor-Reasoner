@@ -14,4 +14,6 @@ In the video above, the CAV is driven by our designed Talker-Reasoner. Initially
 
 Furthermore, the figure below demonstrates the dynamic changes in the CAV's eHMI during the interaction process. At the beginning of the interaction, the CAV expressed its intention to yield. However, after receiving the HDV's intention to yield, the CAV shifted its preference to take priority and communicated this intention through its eHMI.
 
-<img src="./src/slower.png" alt="framework" width="400"/><img src="./src/faster.png" alt="framework" width="400"/>
+<img src="./src/slower.png" alt="framework" width="400"/>
+
+<img src="./src/faster.png" alt="framework" width="400"/>
