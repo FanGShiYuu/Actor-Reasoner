@@ -15,6 +15,7 @@ The above figure depicts the overall framework of the proposed Actor-Reasoner ar
 
 In addition to the Actor-Reasoner architecture, the proposed framework incorporates a heterogeneous driver reproduction module and an environment module. During the training phase, a non-cooperative Bayesian game is utilized to model the decision-making processes of heterogeneous HVs, which are subsequently simulated for interaction within a virtual simulative environment. In the testing phase, experiments are carried out in a real-world test field, where HVs are manually operated by experienced drivers.
 
+## Experiments and Analysis
 This project is still under development, and we present some experimental results here. In the system, human drivers can express their intentions through voice, which are then processed by a fast-slow system built with an LLM and an external database (referred to as the Talker-Reasoner). This system outputs CAV behavior (at 10 Hz) and eHMI information accordingly.
 
 <div style="text-align: center;">
