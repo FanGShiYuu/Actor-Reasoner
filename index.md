@@ -31,8 +31,6 @@ We further visualized this interaction process through video as shown below.
 
 In the video above, the CAV is driven by our designed Actor-Reasoner. In this scenario, the HV entered the intersection earlier and had a higher initial speed. Consequently, the Reasoner classified the HV as an aggressive driver, prompting the eHMI to display “I will be Slower” to convey the AV’s intention. Based on this assessment, the Actor retrieved a deceleration action to allow the HV to pass through the intersection first.  
 
-<source src="./src/case.mp4" type="video/mp4">
-
 However, the HV driver did not follow the AV’s guidance and instead chose to stop at 15s, verbally stating, “I will be slower.” After converting this speech input to text and feeding it into both the Reasoner and the Actor, the Reasoner first interpreted the HV’s intent and, after reasoning, decided to display "I will be Faster" on the eHMI to ensure efficient interaction. The Actor then generated an acceleration decision in real-time, ultimately allowing the AV to pass through the intersection first.
 
 ### Field test at different scenarios
@@ -41,9 +39,6 @@ Due to space constraints in the paper, we were unable to present detailed experi
 
 First, we present the actual operation of the AV in a roundabout scenario, where the human driver exhibits different intentions. In the left image, after the AV receives and understands the HV's intention to go first, it chooses to slow down and yield, ensuring a safe interaction. In a scenario with the same initial positions, the driver decides to go last and slows down, prompting the AV to go first, thus improving the efficiency of the interaction.
 
-| <video muted controls width=380> <source src="./src/roundabout_av_rush.mp4"  type="video/mp4"> </video> <video muted controls width=380> <source src="./src/roundabout_av_yield.mp4"  type="video/mp4"> </video> |
 
 Additionally, we present two sets of interaction examples in merging environments. Due to terrain constraints, we selected a left-turn and straight-through merge scenario at a T-junction for demonstration. Based on the standardized scenario descriptions involved, the proposed method effectively handles interactions in such scenarios and generates different behaviors depending on the specific scenario and experiential context.
-
-| <video muted controls width=380> <source src="./src/merge_av_rush.mp4"  type="video/mp4"> </video> <video muted controls width=380> <source src="./src/merge_av_yield.mp4"  type="video/mp4"> </video> |
 
