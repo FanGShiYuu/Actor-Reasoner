@@ -18,6 +18,7 @@ In addition to the Actor-Reasoner architecture, the proposed framework incorpora
 ## Experiments and Analysis
 
 This section primarily serves as a supplement to the original paper’s experiment. First, we visualize the field test cases presented in the paper. In the experiment, human drivers communicate their intentions verbally through headsets. This information is converted into text and transmitted to the autonomous vehicle (AV) via the On-Board Unit (OBU). Upon receiving the human instruction, the Actor-Reasoner generates both the eHMI information and the AV's driving decisions based on the test protocol. This system outputs CAV behavior (at 10 Hz) and eHMI information accordingly.
+
 <img src="./src/tr-field case.png" alt="tr-field case" width="1000"/>
 
 We further visualized this interaction process through video as shown below.
@@ -29,6 +30,8 @@ We further visualized this interaction process through video as shown below.
 </div>
 
 In the video above, the CAV is driven by our designed Actor-Reasoner. In this scenario, the HV entered the intersection earlier and had a higher initial speed. Consequently, the Reasoner classified the HV as an aggressive driver, prompting the eHMI to display “I will be Slower” to convey the AV’s intention. Based on this assessment, the Actor retrieved a deceleration action to allow the HV to pass through the intersection first.  
+
+<source src="./src/case.mp4" type="video/mp4">
 
 However, the HV driver did not follow the AV’s guidance and instead chose to stop at 15s, verbally stating, “I will be slower.” After converting this speech input to text and feeding it into both the Reasoner and the Actor, the Reasoner first interpreted the HV’s intent and, after reasoning, decided to display "I will be Faster" on the eHMI to ensure efficient interaction. The Actor then generated an acceleration decision in real-time, ultimately allowing the AV to pass through the intersection first.
 
