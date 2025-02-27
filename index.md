@@ -20,6 +20,8 @@ In addition to the Actor-Reasoner architecture, the proposed framework incorpora
 This section primarily serves as a supplement to the original paper’s experiment. First, we visualize the field test cases presented in the paper. In the experiment, human drivers communicate their intentions verbally through headsets. This information is converted into text and transmitted to the autonomous vehicle (AV) via the On-Board Unit (OBU). Upon receiving the human instruction, the Actor-Reasoner generates both the eHMI information and the AV's driving decisions based on the test protocol. This system outputs CAV behavior (at 10 Hz) and eHMI information accordingly.
 <img src="./src/tr-field case.png" alt="tr-field case" width="1000"/>
 
+We further visualized this interaction process through video as shown below.
+
 <div style="text-align: center;">
   <video muted controls width="500" style="margin-right: 10px;">
     <source src="./src/case.mp4" type="video/mp4">
