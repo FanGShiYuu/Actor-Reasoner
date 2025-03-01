@@ -25,7 +25,7 @@ We further visualized this interaction process through video as shown below.
 
 <div style="text-align: center;">
   <video muted controls width="800" style="margin-right: 10px;">
-    <source src="./src/case.mp4" type="video/mp4">
+    <source src="./src/case_in_paper.mp4" type="video/mp4">
   </video>
 </div>
 
