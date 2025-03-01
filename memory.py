@@ -21,6 +21,8 @@ class EmbeddingWrapper:
 
 class DrivingMemory:
     def __init__(self) -> None:
+        model = SentenceTransformer("all-MiniLM-L6-v2")  # first time use
+        model.save("model/all-MiniLM-L6-v2/") 
         model_path = 'model/all-MiniLM-L6-v2/'
         self.embedding = EmbeddingWrapper(model_path)
         self.memory_by_type = {}
