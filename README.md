@@ -6,7 +6,7 @@
 ## Getting started 🚀
 
 #### 1. Install Ollama
-Before you start, make sure to have `ollama` installed and a working environment. If you don’t have `ollama` installed, check here [Ollama](https://ollama.com/):
+Before you start, make sure to have `ollama` installed and a working environment. If you don’t have `ollama` installed, check here [Ollama](https://ollama.com/).
 After installing Ollama, run the following command to install llama3:
 ```shell
 ollama run llama3
