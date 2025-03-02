@@ -55,5 +55,5 @@ Not included:
 - **`prompt_llm.py`**: Handles prompt design for LLM interactions.  
 - **`listener.py`**: Listens to real-time microphone input.  
 - **`memory.py`**: Provides tools for managing the interaction experience database.
-- 
+
 ### If you have any questions, feel free to contact Shiyu (2111219@tongji.edu.cn) 📧.
