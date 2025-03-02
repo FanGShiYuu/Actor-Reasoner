@@ -39,8 +39,8 @@ Due to space constraints in the paper, we were unable to present detailed experi
 
 First, we present the actual operation of the AV in a roundabout scenario, where the human driver exhibits different intentions. In the left image, after the AV receives and understands the HV's intention to go first, it chooses to slow down and yield, ensuring a safe interaction. In a scenario with the same initial positions, the driver decides to go last and slows down, prompting the AV to go first, thus improving the efficiency of the interaction.
 
-| <video muted controls width=600> <source src="./src/roundabout_av_rush.mp4"  type="video/mp4"> </video> <video muted controls width=600> <source src="./src/roundabout_av_yield.mp4"  type="video/mp4"> </video> |
+| <video muted controls width=500> <source src="./src/roundabout_av_rush.mp4"  type="video/mp4"> </video> <video muted controls width=500> <source src="./src/roundabout_av_yield.mp4"  type="video/mp4"> </video> |
 
 Additionally, we present two sets of interaction examples in merging environments. Due to terrain constraints, we selected a left-turn and straight-through merge scenario at a T-junction for demonstration. Based on the standardized scenario descriptions involved, the proposed method effectively handles interactions in such scenarios and generates different behaviors depending on the specific scenario and experiential context.
 
-| <video muted controls width=600> <source src="./src/merge_av_rush.mp4"  type="video/mp4"> </video> <video muted controls width=600> <source src="./src/merge_av_yield.mp4"  type="video/mp4"> </video> |
+| <video muted controls width=500> <source src="./src/merge_av_rush.mp4"  type="video/mp4"> </video> <video muted controls width=500> <source src="./src/merge_av_yield.mp4"  type="video/mp4"> </video> |
