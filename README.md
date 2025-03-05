@@ -11,7 +11,7 @@ After installing Ollama, run the following command to install llama3:
 ```shell
 ollama run llama3
 ```
-You can choose any other LLM model provided by Ollama—just replace "llama3" with the model you want to use and change llm_agent.py line10 accordingly. Check [here](https://ollama.com/search) for more details.
+You can choose any other LLM model provided by Ollama—just replace "llama3" with the model you want to use and change llm_agent.py line10 accordingly. Check [here](https://ollama.com/search) for more details. (better with python3.10)
 
 #### 2. Install the dependent package
 ```shell
