@@ -5,4 +5,4 @@ langchain==0.0.335
 sentence-transformers==3.0.1
 matplotlib
 chromadb==0.4.15
-
+openpyxl
