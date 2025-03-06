@@ -2,7 +2,7 @@ SpeechRecognition
 numpy
 scipy
 langchain==0.0.335
-sentence-transformers==3.0.1
+sentence-transformers
 matplotlib
 chromadb==0.4.15
 openpyxl
