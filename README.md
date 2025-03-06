@@ -57,3 +57,19 @@ Not included:
 - **`memory.py`**: Provides tools for managing the interaction experience database.
 
 ### If you have any questions, feel free to contact Shiyu (2111219@tongji.edu.cn) 📧.
+
+#### Citation
+
+Our paper has been pre-printed! If you find our work helpful, please consider citing us using the following reference 😊:
+
+```bibtex
+@misc{fang2025interactinstructimprovellmdriven,
+      title={Interact, Instruct to Improve: A LLM-Driven Parallel Actor-Reasoner Framework for Enhancing Autonomous Vehicle Interactions}, 
+      author={Shiyu Fang and Jiaqi Liu and Chengkai Xu and Chen Lv and Peng Hang and Jian Sun},
+      year={2025},
+      eprint={2503.00502},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2503.00502}, 
+}
+
