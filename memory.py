@@ -22,7 +22,7 @@ class EmbeddingWrapper:
 class DrivingMemory:
     def __init__(self) -> None:
         # os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'  # for the region can not connect to huggingface
-        # model = SentenceTransformer("all-MiniLM-L6-v2")  # first time use, active line25&26
+        # model = SentenceTransformer("all-MiniLM-L6-v2")  # first time use, active line25&26, when model are downloaded, comment these line to avoid repeared download
         # model.save("model/all-MiniLM-L6-v2/") 
         model_path = 'model/all-MiniLM-L6-v2/'
         self.embedding = EmbeddingWrapper(model_path)
