@@ -24,7 +24,7 @@ python train.py
 python test.py
 python test_with_listener.py
 ```
-First, run `train.py` to generate an interaction experience database. After that, you can use `test.py` or `test_with_listener.py` for testing. The simulation will run at a frequency of 10Hz. In `test_with_listener.py`, if your device has a microphone, you can act as an HDV and provide human instructions to the CAV. Have fun 😊
+First, run `train.py` to generate an interaction experience database (you may need to activate line24&25 in memory.py if you do not have a relative embedding model). After that, you can use `test.py` or `test_with_listener.py` for testing. The simulation will run at a frequency of 10Hz. In `test_with_listener.py`, if your device has a microphone, you can act as an HDV and provide human instructions to the CAV. Have fun 😊
 
 ## Overview 🔍
 ### Repo description 📄
