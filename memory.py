@@ -21,8 +21,9 @@ class EmbeddingWrapper:
 
 class DrivingMemory:
     def __init__(self) -> None:
-        model = SentenceTransformer("all-MiniLM-L6-v2")  # first time use
-        model.save("model/all-MiniLM-L6-v2/") 
+        # os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'  # for the region can not connect to huggingface
+        # model = SentenceTransformer("all-MiniLM-L6-v2")  # first time use, active line25&26
+        # model.save("model/all-MiniLM-L6-v2/") 
         model_path = 'model/all-MiniLM-L6-v2/'
         self.embedding = EmbeddingWrapper(model_path)
         self.memory_by_type = {}
