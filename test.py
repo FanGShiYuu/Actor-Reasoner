@@ -126,9 +126,9 @@ class Simulator:
 
     def actor(self):
         sce_descrip = tools.scenario_experience_generator(self.cav_info, self.hdv_info, self.llm_output, self.instruction_info)
-        # retrieved_memory = self.memory.retrieveMemory(query_scenario=sce_descrip, top_k=1)
+        retrieved_memory = self.memory.retrieveMemory(query_scenario=sce_descrip, top_k=1)
         time_start = time.time()
-        retrieved_memory = self.memory.retrieveMemory_without_Tlayer(query_scenario=sce_descrip, top_k=1)
+        # retrieved_memory = self.memory.retrieveMemory_without_Tlayer(query_scenario=sce_descrip, top_k=1)
         retrieve_time = round(time.time() - time_start, 5)
         print('Retrieve memory time/s', retrieve_time)
         self.llm_output[0] = retrieved_memory[0][0]['final_action']
